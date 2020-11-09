@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>bài giảng về debug</h1>
+<p id="total"></p>
+<!--Vidu-->
+<script>
+    debugger // đặt debugger vào bất kỳ dòng nào để tìm kiếm lỗi
+    var a = 1;
+    var b = 2;
+    var total = a + b;
+    console.log(total); // 1 cách debeg bằng console.log()
+    alert(total);// debug bằng alert
+    document.getElementById("total").innerHTML = total;
+</script>
+</body>
+</html>
